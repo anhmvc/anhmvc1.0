@@ -1,38 +1,158 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins");
+
+* {
+  scroll-behavior: smooth;
+}
+
 .App {
-  text-align: center;
+  text-align: left;
+  font-family: 'Poppins';
+  color: black;
+  overflow: hidden;
+  scroll-behavior: smooth;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.title {
+  font-family: 'Poppins';
+  text-align: left;
+  color: black;
+  margin-left: 22vw;
+  margin-right: 22vw;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
+.header {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  font-size: calc(1rem + 2vmin);
 }
 
-.App-link {
-  color: #61dafb;
+.logo-text {
+  position: fixed;
+  font-size: calc(1rem + 2vmin);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.menu-text {
+  position: fixed;
+  font-size: calc(0.5rem + 2vmin);
+}
+
+.link,
+.menu-link {
+  text-decoration: none;
+  color: black;
+}
+
+.link {
+  margin-left: 3vh;
+  margin-right: 3vh;
+}
+
+.link:visited {
+  color: black;
+}
+
+.links-container {
+  display: flex; 
+  text-align: center;
+  align-items: center; 
+  justify-content: space-between;
+  font-size: calc(1rem);
+
+  position: fixed;
+  display: block;
+  top: 50%;
+  left: 1.5rem;
+  padding: 10px 20px;
+  transform: rotate(-90deg) translateX(-50%);
+  transform-origin: left top;
+}
+
+.top {
+  top: 0;
+  margin-top: 1.5rem;
+}
+.right {
+  right: 0;
+  margin-right: 1.5rem;
+  text-align: right;
+}
+.bottom {
+  bottom: 0;
+  margin-bottom: 1.5rem;
+}
+.left {
+  left: 0;
+  margin-left: 1.5rem;
+  text-align: left;
+}
+
+#coding {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+#designing {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.image {
+  object-fit: cover;
+  width: 18vw;
+  height: 18vw;
+  margin: 2vmin;
+  border-radius: 10px 10px;
+}
+
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 33.33%;
+  padding: 5px;
+}
+
+.infoText {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.projectTitle {
+  margin: 0 !important;
+  text-align: center;
+  font-weight: 800;
+}
+
+.projectDescription {
+  text-align: center;
+  width: 60%;
+  font-size: calc(0.2rem + 1vw);
+}
+
+.designTitle {
+  margin: 0;
+  font-weight: 800;
+}
+
+.designSubtitle {
+  margin: 0;
+  font-size: calc(0.2rem + 1vw);
+}
+
+.designLink {
+  text-decoration: none;
+  font-weight: 800;
+  color: #AC81F2;
 }

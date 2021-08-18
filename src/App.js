@@ -1,13 +1,12 @@
 import Typist from "react-typist";
 import React, { useState } from "react";
 import Resume from "./media/AnhMac_Resume.pdf";
-import pl from "./media/placeholder.jpeg";
-// import img1 from './media/project-1.png';
-// import img2 from './media/project-2.png';
-// import img3 from './media/project-3.png';
-// import img4 from './media/project-4.gif';
-// import img5 from './media/project-5.gif';
-// import img6 from './media/project-6.gif';
+import img1 from "./media/project-1.png";
+import img2 from "./media/project-2.png";
+import img3 from "./media/project-3.png";
+import img4 from "./media/project-4.gif";
+import img5 from "./media/project-5.gif";
+import img6 from "./media/project-6.gif";
 import "./components/Cursor";
 import "./App.css";
 
@@ -89,7 +88,7 @@ function App() {
           <div class="column image" style={{ textAlign: "center" }}>
             <a href="https://github.com/ucladevx/twain-extension">
               <img
-                src={pl}
+                src={img1}
                 alt="Twain"
                 style={{
                   height: "100%",
@@ -105,7 +104,7 @@ function App() {
           <div class="column image">
             <a href="https://www.sarurecycling.com/">
               <img
-                src={pl}
+                src={img2}
                 alt="Saru Recycling"
                 style={{ height: "100%", position: "relative" }}
                 onMouseOver={() => changeText(2)}
@@ -124,7 +123,7 @@ function App() {
           <div class="column">
             <a href="https://dh101metexploration.humspace.ucla.edu/">
               <img
-                src={pl}
+                src={img3}
                 alt="The Met Explorer"
                 class="image"
                 onMouseOver={() => changeText(3)}
@@ -135,7 +134,7 @@ function App() {
           <div class="column">
             <a href="https://github.com/anhmvc/royce-hall">
               <img
-                src={pl}
+                src={img4}
                 alt="Royce Hall Model"
                 class="image"
                 onMouseOver={() => changeText(4)}
@@ -146,7 +145,7 @@ function App() {
           <div class="column">
             <a href="https://flux.rip/">
               <img
-                src={pl}
+                src={img5}
                 alt="FLUX"
                 class="image"
                 onMouseOver={() => changeText(5)}
@@ -157,7 +156,7 @@ function App() {
           <div class="column">
             <a href="https://github.com/anhmvc/solar-system">
               <img
-                src={pl}
+                src={img6}
                 alt="Solar System Graphics"
                 class="image"
                 onMouseOver={() => changeText(6)}

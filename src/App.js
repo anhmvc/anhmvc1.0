@@ -63,7 +63,7 @@ function App() {
           <a className="link" href="https://github.com/anhmvc">
             github
           </a>
-          <a className="link" href={Resume} target="_blank" rel="noreferrer">
+          <a className="link" href={Resume} target="_blank">
             resume
           </a>
         </div>
@@ -86,7 +86,10 @@ function App() {
       <div id="coding">
         <div class="row">
           <div class="column image" style={{ textAlign: "center" }}>
-            <a href="https://github.com/ucladevx/twain-extension">
+            <a
+              href="https://github.com/ucladevx/twain-extension"
+              target="_blank"
+            >
               <img
                 src={img1}
                 alt="Twain"
@@ -102,7 +105,7 @@ function App() {
             </a>
           </div>
           <div class="column image">
-            <a href="https://www.sarurecycling.com/">
+            <a href="https://www.sarurecycling.com/" target="_blank">
               <img
                 src={img2}
                 alt="Saru Recycling"
@@ -121,7 +124,10 @@ function App() {
         </div>
         <div class="row">
           <div class="column">
-            <a href="https://dh101metexploration.humspace.ucla.edu/">
+            <a
+              href="https://dh101metexploration.humspace.ucla.edu/"
+              target="_blank"
+            >
               <img
                 src={img3}
                 alt="The Met Explorer"
@@ -132,7 +138,7 @@ function App() {
             </a>
           </div>
           <div class="column">
-            <a href="https://github.com/anhmvc/royce-hall">
+            <a href="https://github.com/anhmvc/royce-hall" target="_blank">
               <img
                 src={img4}
                 alt="Royce Hall Model"
@@ -143,7 +149,7 @@ function App() {
             </a>
           </div>
           <div class="column">
-            <a href="https://flux.rip/">
+            <a href="https://flux.rip/" target="_blank">
               <img
                 src={img5}
                 alt="FLUX"
@@ -154,7 +160,7 @@ function App() {
             </a>
           </div>
           <div class="column">
-            <a href="https://github.com/anhmvc/solar-system">
+            <a href="https://github.com/anhmvc/solar-system" target="_blank">
               <img
                 src={img6}
                 alt="Solar System Graphics"
@@ -175,7 +181,11 @@ function App() {
         <p class="designSubtitle">
           In the meantime, you can get an *exclusive* 😉 sneak peek of my design
           portfolio{" "}
-          <a href="https://anhmvc.wixsite.com/home/design" class="designLink">
+          <a
+            href="https://anhmvc.wixsite.com/home/design"
+            class="designLink"
+            target="_blank"
+          >
             here
           </a>
           !
